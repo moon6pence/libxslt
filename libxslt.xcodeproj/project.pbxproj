@@ -8,15 +8,101 @@
 
 /* Begin PBXBuildFile section */
 		06DBE6FA14CEE53D00F930F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DBE6F914CEE53D00F930F3 /* Foundation.framework */; };
-		06DBE70014CEE53D00F930F3 /* libxslt.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE6FF14CEE53D00F930F3 /* libxslt.m */; };
+		06DBE73C14CEE6C900F930F3 /* attributes.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE70F14CEE6C900F930F3 /* attributes.c */; };
+		06DBE73D14CEE6C900F930F3 /* attributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE71014CEE6C900F930F3 /* attributes.h */; };
+		06DBE73E14CEE6C900F930F3 /* attrvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE71114CEE6C900F930F3 /* attrvt.c */; };
+		06DBE73F14CEE6C900F930F3 /* documents.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE71214CEE6C900F930F3 /* documents.c */; };
+		06DBE74014CEE6C900F930F3 /* documents.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE71314CEE6C900F930F3 /* documents.h */; };
+		06DBE74114CEE6C900F930F3 /* extensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE71414CEE6C900F930F3 /* extensions.c */; };
+		06DBE74214CEE6C900F930F3 /* extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE71514CEE6C900F930F3 /* extensions.h */; };
+		06DBE74314CEE6C900F930F3 /* extra.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE71614CEE6C900F930F3 /* extra.c */; };
+		06DBE74414CEE6C900F930F3 /* extra.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE71714CEE6C900F930F3 /* extra.h */; };
+		06DBE74514CEE6C900F930F3 /* functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE71814CEE6C900F930F3 /* functions.c */; };
+		06DBE74614CEE6C900F930F3 /* functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE71914CEE6C900F930F3 /* functions.h */; };
+		06DBE74714CEE6C900F930F3 /* imports.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE71A14CEE6C900F930F3 /* imports.c */; };
+		06DBE74814CEE6C900F930F3 /* imports.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE71B14CEE6C900F930F3 /* imports.h */; };
+		06DBE74914CEE6C900F930F3 /* keys.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE71C14CEE6C900F930F3 /* keys.c */; };
+		06DBE74A14CEE6C900F930F3 /* keys.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE71D14CEE6C900F930F3 /* keys.h */; };
+		06DBE74B14CEE6C900F930F3 /* libxslt.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE71E14CEE6C900F930F3 /* libxslt.h */; };
+		06DBE74C14CEE6C900F930F3 /* namespaces.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE71F14CEE6C900F930F3 /* namespaces.c */; };
+		06DBE74D14CEE6C900F930F3 /* namespaces.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE72014CEE6C900F930F3 /* namespaces.h */; };
+		06DBE74E14CEE6C900F930F3 /* numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE72114CEE6C900F930F3 /* numbers.c */; };
+		06DBE74F14CEE6C900F930F3 /* numbersInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE72214CEE6C900F930F3 /* numbersInternals.h */; };
+		06DBE75014CEE6C900F930F3 /* pattern.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE72314CEE6C900F930F3 /* pattern.c */; };
+		06DBE75114CEE6C900F930F3 /* pattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE72414CEE6C900F930F3 /* pattern.h */; };
+		06DBE75214CEE6C900F930F3 /* preproc.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE72514CEE6C900F930F3 /* preproc.c */; };
+		06DBE75314CEE6C900F930F3 /* preproc.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE72614CEE6C900F930F3 /* preproc.h */; };
+		06DBE75414CEE6C900F930F3 /* security.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE72714CEE6C900F930F3 /* security.c */; };
+		06DBE75514CEE6C900F930F3 /* security.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE72814CEE6C900F930F3 /* security.h */; };
+		06DBE75614CEE6C900F930F3 /* templates.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE72914CEE6C900F930F3 /* templates.c */; };
+		06DBE75714CEE6C900F930F3 /* templates.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE72A14CEE6C900F930F3 /* templates.h */; };
+		06DBE75814CEE6C900F930F3 /* transform.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE72B14CEE6C900F930F3 /* transform.c */; };
+		06DBE75914CEE6C900F930F3 /* transform.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE72C14CEE6C900F930F3 /* transform.h */; };
+		06DBE75A14CEE6C900F930F3 /* trio.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE72D14CEE6C900F930F3 /* trio.h */; };
+		06DBE75B14CEE6C900F930F3 /* triodef.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE72E14CEE6C900F930F3 /* triodef.h */; };
+		06DBE75C14CEE6C900F930F3 /* variables.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE72F14CEE6C900F930F3 /* variables.c */; };
+		06DBE75D14CEE6C900F930F3 /* variables.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE73014CEE6C900F930F3 /* variables.h */; };
+		06DBE75E14CEE6C900F930F3 /* win32config.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE73114CEE6C900F930F3 /* win32config.h */; };
+		06DBE75F14CEE6C900F930F3 /* xslt.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE73214CEE6C900F930F3 /* xslt.c */; };
+		06DBE76014CEE6C900F930F3 /* xslt.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE73314CEE6C900F930F3 /* xslt.h */; };
+		06DBE76114CEE6C900F930F3 /* xsltconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE73414CEE6C900F930F3 /* xsltconfig.h */; };
+		06DBE76214CEE6C900F930F3 /* xsltexports.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE73514CEE6C900F930F3 /* xsltexports.h */; };
+		06DBE76314CEE6C900F930F3 /* xsltInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE73614CEE6C900F930F3 /* xsltInternals.h */; };
+		06DBE76414CEE6C900F930F3 /* xsltlocale.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE73714CEE6C900F930F3 /* xsltlocale.c */; };
+		06DBE76514CEE6C900F930F3 /* xsltlocale.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE73814CEE6C900F930F3 /* xsltlocale.h */; };
+		06DBE76614CEE6C900F930F3 /* xsltutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE73914CEE6C900F930F3 /* xsltutils.c */; };
+		06DBE76714CEE6C900F930F3 /* xsltutils.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE73A14CEE6C900F930F3 /* xsltutils.h */; };
+		06DBE76814CEE6C900F930F3 /* xsltwin32config.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DBE73B14CEE6C900F930F3 /* xsltwin32config.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06DBE6F614CEE53D00F930F3 /* liblibxslt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibxslt.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DBE6F914CEE53D00F930F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		06DBE6FD14CEE53D00F930F3 /* libxslt-Prefix.pch */ = {isa = PBXFileReference; path = "libxslt-Prefix.pch"; sourceTree = "<group>"; };
-		06DBE6FE14CEE53D00F930F3 /* libxslt.h */ = {isa = PBXFileReference; path = libxslt.h; sourceTree = "<group>"; };
-		06DBE6FF14CEE53D00F930F3 /* libxslt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libxslt.m; sourceTree = "<group>"; };
+		06DBE70F14CEE6C900F930F3 /* attributes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = attributes.c; path = "libxslt-1.1.26/libxslt/attributes.c"; sourceTree = "<group>"; };
+		06DBE71014CEE6C900F930F3 /* attributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = attributes.h; path = "libxslt-1.1.26/libxslt/attributes.h"; sourceTree = "<group>"; };
+		06DBE71114CEE6C900F930F3 /* attrvt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = attrvt.c; path = "libxslt-1.1.26/libxslt/attrvt.c"; sourceTree = "<group>"; };
+		06DBE71214CEE6C900F930F3 /* documents.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = documents.c; path = "libxslt-1.1.26/libxslt/documents.c"; sourceTree = "<group>"; };
+		06DBE71314CEE6C900F930F3 /* documents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = documents.h; path = "libxslt-1.1.26/libxslt/documents.h"; sourceTree = "<group>"; };
+		06DBE71414CEE6C900F930F3 /* extensions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = extensions.c; path = "libxslt-1.1.26/libxslt/extensions.c"; sourceTree = "<group>"; };
+		06DBE71514CEE6C900F930F3 /* extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = extensions.h; path = "libxslt-1.1.26/libxslt/extensions.h"; sourceTree = "<group>"; };
+		06DBE71614CEE6C900F930F3 /* extra.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = extra.c; path = "libxslt-1.1.26/libxslt/extra.c"; sourceTree = "<group>"; };
+		06DBE71714CEE6C900F930F3 /* extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = extra.h; path = "libxslt-1.1.26/libxslt/extra.h"; sourceTree = "<group>"; };
+		06DBE71814CEE6C900F930F3 /* functions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = functions.c; path = "libxslt-1.1.26/libxslt/functions.c"; sourceTree = "<group>"; };
+		06DBE71914CEE6C900F930F3 /* functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = functions.h; path = "libxslt-1.1.26/libxslt/functions.h"; sourceTree = "<group>"; };
+		06DBE71A14CEE6C900F930F3 /* imports.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = imports.c; path = "libxslt-1.1.26/libxslt/imports.c"; sourceTree = "<group>"; };
+		06DBE71B14CEE6C900F930F3 /* imports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imports.h; path = "libxslt-1.1.26/libxslt/imports.h"; sourceTree = "<group>"; };
+		06DBE71C14CEE6C900F930F3 /* keys.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = keys.c; path = "libxslt-1.1.26/libxslt/keys.c"; sourceTree = "<group>"; };
+		06DBE71D14CEE6C900F930F3 /* keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = keys.h; path = "libxslt-1.1.26/libxslt/keys.h"; sourceTree = "<group>"; };
+		06DBE71E14CEE6C900F930F3 /* libxslt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libxslt.h; path = "libxslt-1.1.26/libxslt/libxslt.h"; sourceTree = "<group>"; };
+		06DBE71F14CEE6C900F930F3 /* namespaces.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = namespaces.c; path = "libxslt-1.1.26/libxslt/namespaces.c"; sourceTree = "<group>"; };
+		06DBE72014CEE6C900F930F3 /* namespaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = namespaces.h; path = "libxslt-1.1.26/libxslt/namespaces.h"; sourceTree = "<group>"; };
+		06DBE72114CEE6C900F930F3 /* numbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = numbers.c; path = "libxslt-1.1.26/libxslt/numbers.c"; sourceTree = "<group>"; };
+		06DBE72214CEE6C900F930F3 /* numbersInternals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = numbersInternals.h; path = "libxslt-1.1.26/libxslt/numbersInternals.h"; sourceTree = "<group>"; };
+		06DBE72314CEE6C900F930F3 /* pattern.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pattern.c; path = "libxslt-1.1.26/libxslt/pattern.c"; sourceTree = "<group>"; };
+		06DBE72414CEE6C900F930F3 /* pattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pattern.h; path = "libxslt-1.1.26/libxslt/pattern.h"; sourceTree = "<group>"; };
+		06DBE72514CEE6C900F930F3 /* preproc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = preproc.c; path = "libxslt-1.1.26/libxslt/preproc.c"; sourceTree = "<group>"; };
+		06DBE72614CEE6C900F930F3 /* preproc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = preproc.h; path = "libxslt-1.1.26/libxslt/preproc.h"; sourceTree = "<group>"; };
+		06DBE72714CEE6C900F930F3 /* security.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = security.c; path = "libxslt-1.1.26/libxslt/security.c"; sourceTree = "<group>"; };
+		06DBE72814CEE6C900F930F3 /* security.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = security.h; path = "libxslt-1.1.26/libxslt/security.h"; sourceTree = "<group>"; };
+		06DBE72914CEE6C900F930F3 /* templates.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = templates.c; path = "libxslt-1.1.26/libxslt/templates.c"; sourceTree = "<group>"; };
+		06DBE72A14CEE6C900F930F3 /* templates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = templates.h; path = "libxslt-1.1.26/libxslt/templates.h"; sourceTree = "<group>"; };
+		06DBE72B14CEE6C900F930F3 /* transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = transform.c; path = "libxslt-1.1.26/libxslt/transform.c"; sourceTree = "<group>"; };
+		06DBE72C14CEE6C900F930F3 /* transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = transform.h; path = "libxslt-1.1.26/libxslt/transform.h"; sourceTree = "<group>"; };
+		06DBE72D14CEE6C900F930F3 /* trio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trio.h; path = "libxslt-1.1.26/libxslt/trio.h"; sourceTree = "<group>"; };
+		06DBE72E14CEE6C900F930F3 /* triodef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = triodef.h; path = "libxslt-1.1.26/libxslt/triodef.h"; sourceTree = "<group>"; };
+		06DBE72F14CEE6C900F930F3 /* variables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = variables.c; path = "libxslt-1.1.26/libxslt/variables.c"; sourceTree = "<group>"; };
+		06DBE73014CEE6C900F930F3 /* variables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = variables.h; path = "libxslt-1.1.26/libxslt/variables.h"; sourceTree = "<group>"; };
+		06DBE73114CEE6C900F930F3 /* win32config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = win32config.h; path = "libxslt-1.1.26/libxslt/win32config.h"; sourceTree = "<group>"; };
+		06DBE73214CEE6C900F930F3 /* xslt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xslt.c; path = "libxslt-1.1.26/libxslt/xslt.c"; sourceTree = "<group>"; };
+		06DBE73314CEE6C900F930F3 /* xslt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xslt.h; path = "libxslt-1.1.26/libxslt/xslt.h"; sourceTree = "<group>"; };
+		06DBE73414CEE6C900F930F3 /* xsltconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xsltconfig.h; path = "libxslt-1.1.26/libxslt/xsltconfig.h"; sourceTree = "<group>"; };
+		06DBE73514CEE6C900F930F3 /* xsltexports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xsltexports.h; path = "libxslt-1.1.26/libxslt/xsltexports.h"; sourceTree = "<group>"; };
+		06DBE73614CEE6C900F930F3 /* xsltInternals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xsltInternals.h; path = "libxslt-1.1.26/libxslt/xsltInternals.h"; sourceTree = "<group>"; };
+		06DBE73714CEE6C900F930F3 /* xsltlocale.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xsltlocale.c; path = "libxslt-1.1.26/libxslt/xsltlocale.c"; sourceTree = "<group>"; };
+		06DBE73814CEE6C900F930F3 /* xsltlocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xsltlocale.h; path = "libxslt-1.1.26/libxslt/xsltlocale.h"; sourceTree = "<group>"; };
+		06DBE73914CEE6C900F930F3 /* xsltutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xsltutils.c; path = "libxslt-1.1.26/libxslt/xsltutils.c"; sourceTree = "<group>"; };
+		06DBE73A14CEE6C900F930F3 /* xsltutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xsltutils.h; path = "libxslt-1.1.26/libxslt/xsltutils.h"; sourceTree = "<group>"; };
+		06DBE73B14CEE6C900F930F3 /* xsltwin32config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xsltwin32config.h; path = "libxslt-1.1.26/libxslt/xsltwin32config.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +120,7 @@
 		06DBE6EB14CEE53D00F930F3 = {
 			isa = PBXGroup;
 			children = (
-				06DBE6FB14CEE53D00F930F3 /* libxslt */,
+				06DBE70D14CEE69E00F930F3 /* libxslt */,
 				06DBE6F814CEE53D00F930F3 /* Frameworks */,
 				06DBE6F714CEE53D00F930F3 /* Products */,
 			);
@@ -56,22 +142,56 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		06DBE6FB14CEE53D00F930F3 /* libxslt */ = {
+		06DBE70D14CEE69E00F930F3 /* libxslt */ = {
 			isa = PBXGroup;
 			children = (
-				06DBE6FE14CEE53D00F930F3 /* libxslt.h */,
-				06DBE6FF14CEE53D00F930F3 /* libxslt.m */,
-				06DBE6FC14CEE53D00F930F3 /* Supporting Files */,
+				06DBE70F14CEE6C900F930F3 /* attributes.c */,
+				06DBE71014CEE6C900F930F3 /* attributes.h */,
+				06DBE71114CEE6C900F930F3 /* attrvt.c */,
+				06DBE71214CEE6C900F930F3 /* documents.c */,
+				06DBE71314CEE6C900F930F3 /* documents.h */,
+				06DBE71414CEE6C900F930F3 /* extensions.c */,
+				06DBE71514CEE6C900F930F3 /* extensions.h */,
+				06DBE71614CEE6C900F930F3 /* extra.c */,
+				06DBE71714CEE6C900F930F3 /* extra.h */,
+				06DBE71814CEE6C900F930F3 /* functions.c */,
+				06DBE71914CEE6C900F930F3 /* functions.h */,
+				06DBE71A14CEE6C900F930F3 /* imports.c */,
+				06DBE71B14CEE6C900F930F3 /* imports.h */,
+				06DBE71C14CEE6C900F930F3 /* keys.c */,
+				06DBE71D14CEE6C900F930F3 /* keys.h */,
+				06DBE71E14CEE6C900F930F3 /* libxslt.h */,
+				06DBE71F14CEE6C900F930F3 /* namespaces.c */,
+				06DBE72014CEE6C900F930F3 /* namespaces.h */,
+				06DBE72114CEE6C900F930F3 /* numbers.c */,
+				06DBE72214CEE6C900F930F3 /* numbersInternals.h */,
+				06DBE72314CEE6C900F930F3 /* pattern.c */,
+				06DBE72414CEE6C900F930F3 /* pattern.h */,
+				06DBE72514CEE6C900F930F3 /* preproc.c */,
+				06DBE72614CEE6C900F930F3 /* preproc.h */,
+				06DBE72714CEE6C900F930F3 /* security.c */,
+				06DBE72814CEE6C900F930F3 /* security.h */,
+				06DBE72914CEE6C900F930F3 /* templates.c */,
+				06DBE72A14CEE6C900F930F3 /* templates.h */,
+				06DBE72B14CEE6C900F930F3 /* transform.c */,
+				06DBE72C14CEE6C900F930F3 /* transform.h */,
+				06DBE72D14CEE6C900F930F3 /* trio.h */,
+				06DBE72E14CEE6C900F930F3 /* triodef.h */,
+				06DBE72F14CEE6C900F930F3 /* variables.c */,
+				06DBE73014CEE6C900F930F3 /* variables.h */,
+				06DBE73114CEE6C900F930F3 /* win32config.h */,
+				06DBE73214CEE6C900F930F3 /* xslt.c */,
+				06DBE73314CEE6C900F930F3 /* xslt.h */,
+				06DBE73414CEE6C900F930F3 /* xsltconfig.h */,
+				06DBE73514CEE6C900F930F3 /* xsltexports.h */,
+				06DBE73614CEE6C900F930F3 /* xsltInternals.h */,
+				06DBE73714CEE6C900F930F3 /* xsltlocale.c */,
+				06DBE73814CEE6C900F930F3 /* xsltlocale.h */,
+				06DBE73914CEE6C900F930F3 /* xsltutils.c */,
+				06DBE73A14CEE6C900F930F3 /* xsltutils.h */,
+				06DBE73B14CEE6C900F930F3 /* xsltwin32config.h */,
 			);
-			path = libxslt;
-			sourceTree = "<group>";
-		};
-		06DBE6FC14CEE53D00F930F3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				06DBE6FD14CEE53D00F930F3 /* libxslt-Prefix.pch */,
-			);
-			name = "Supporting Files";
+			name = libxslt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +201,32 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06DBE73D14CEE6C900F930F3 /* attributes.h in Headers */,
+				06DBE74014CEE6C900F930F3 /* documents.h in Headers */,
+				06DBE74214CEE6C900F930F3 /* extensions.h in Headers */,
+				06DBE74414CEE6C900F930F3 /* extra.h in Headers */,
+				06DBE74614CEE6C900F930F3 /* functions.h in Headers */,
+				06DBE74814CEE6C900F930F3 /* imports.h in Headers */,
+				06DBE74A14CEE6C900F930F3 /* keys.h in Headers */,
+				06DBE74B14CEE6C900F930F3 /* libxslt.h in Headers */,
+				06DBE74D14CEE6C900F930F3 /* namespaces.h in Headers */,
+				06DBE74F14CEE6C900F930F3 /* numbersInternals.h in Headers */,
+				06DBE75114CEE6C900F930F3 /* pattern.h in Headers */,
+				06DBE75314CEE6C900F930F3 /* preproc.h in Headers */,
+				06DBE75514CEE6C900F930F3 /* security.h in Headers */,
+				06DBE75714CEE6C900F930F3 /* templates.h in Headers */,
+				06DBE75914CEE6C900F930F3 /* transform.h in Headers */,
+				06DBE75A14CEE6C900F930F3 /* trio.h in Headers */,
+				06DBE75B14CEE6C900F930F3 /* triodef.h in Headers */,
+				06DBE75D14CEE6C900F930F3 /* variables.h in Headers */,
+				06DBE75E14CEE6C900F930F3 /* win32config.h in Headers */,
+				06DBE76014CEE6C900F930F3 /* xslt.h in Headers */,
+				06DBE76114CEE6C900F930F3 /* xsltconfig.h in Headers */,
+				06DBE76214CEE6C900F930F3 /* xsltexports.h in Headers */,
+				06DBE76314CEE6C900F930F3 /* xsltInternals.h in Headers */,
+				06DBE76514CEE6C900F930F3 /* xsltlocale.h in Headers */,
+				06DBE76714CEE6C900F930F3 /* xsltutils.h in Headers */,
+				06DBE76814CEE6C900F930F3 /* xsltwin32config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +281,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06DBE70014CEE53D00F930F3 /* libxslt.m in Sources */,
+				06DBE73C14CEE6C900F930F3 /* attributes.c in Sources */,
+				06DBE73E14CEE6C900F930F3 /* attrvt.c in Sources */,
+				06DBE73F14CEE6C900F930F3 /* documents.c in Sources */,
+				06DBE74114CEE6C900F930F3 /* extensions.c in Sources */,
+				06DBE74314CEE6C900F930F3 /* extra.c in Sources */,
+				06DBE74514CEE6C900F930F3 /* functions.c in Sources */,
+				06DBE74714CEE6C900F930F3 /* imports.c in Sources */,
+				06DBE74914CEE6C900F930F3 /* keys.c in Sources */,
+				06DBE74C14CEE6C900F930F3 /* namespaces.c in Sources */,
+				06DBE74E14CEE6C900F930F3 /* numbers.c in Sources */,
+				06DBE75014CEE6C900F930F3 /* pattern.c in Sources */,
+				06DBE75214CEE6C900F930F3 /* preproc.c in Sources */,
+				06DBE75414CEE6C900F930F3 /* security.c in Sources */,
+				06DBE75614CEE6C900F930F3 /* templates.c in Sources */,
+				06DBE75814CEE6C900F930F3 /* transform.c in Sources */,
+				06DBE75C14CEE6C900F930F3 /* variables.c in Sources */,
+				06DBE75F14CEE6C900F930F3 /* xslt.c in Sources */,
+				06DBE76414CEE6C900F930F3 /* xsltlocale.c in Sources */,
+				06DBE76614CEE6C900F930F3 /* xsltutils.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,8 +324,10 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/libxslt-1.1.26";
 			};
 			name = Debug;
 		};
@@ -176,8 +342,10 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/libxslt-1.1.26";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -186,8 +354,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/libxslt.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libxslt/libxslt-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -198,8 +366,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/libxslt.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libxslt/libxslt-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -225,6 +393,7 @@
 				06DBE70514CEE53D00F930F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
