@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06DBE6FA14CEE53D00F930F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DBE6F914CEE53D00F930F3 /* Foundation.framework */; };
+		06DBE70014CEE53D00F930F3 /* libxslt.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DBE6FF14CEE53D00F930F3 /* libxslt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06DBE6F614CEE53D00F930F3 /* liblibxslt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibxslt.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DBE6F914CEE53D00F930F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06DBE6FD14CEE53D00F930F3 /* libxslt-Prefix.pch */ = {isa = PBXFileReference; path = "libxslt-Prefix.pch"; sourceTree = "<group>"; };
+		06DBE6FE14CEE53D00F930F3 /* libxslt.h */ = {isa = PBXFileReference; path = libxslt.h; sourceTree = "<group>"; };
+		06DBE6FF14CEE53D00F930F3 /* libxslt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libxslt.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06DBE6F314CEE53D00F930F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DBE6FA14CEE53D00F930F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06DBE6EB14CEE53D00F930F3 = {
+			isa = PBXGroup;
+			children = (
+				06DBE6FB14CEE53D00F930F3 /* libxslt */,
+				06DBE6F814CEE53D00F930F3 /* Frameworks */,
+				06DBE6F714CEE53D00F930F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06DBE6F714CEE53D00F930F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06DBE6F614CEE53D00F930F3 /* liblibxslt.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06DBE6F814CEE53D00F930F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06DBE6F914CEE53D00F930F3 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06DBE6FB14CEE53D00F930F3 /* libxslt */ = {
+			isa = PBXGroup;
+			children = (
+				06DBE6FE14CEE53D00F930F3 /* libxslt.h */,
+				06DBE6FF14CEE53D00F930F3 /* libxslt.m */,
+				06DBE6FC14CEE53D00F930F3 /* Supporting Files */,
+			);
+			path = libxslt;
+			sourceTree = "<group>";
+		};
+		06DBE6FC14CEE53D00F930F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06DBE6FD14CEE53D00F930F3 /* libxslt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06DBE6F414CEE53D00F930F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06DBE6F514CEE53D00F930F3 /* libxslt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DBE70314CEE53D00F930F3 /* Build configuration list for PBXNativeTarget "libxslt" */;
+			buildPhases = (
+				06DBE6F214CEE53D00F930F3 /* Sources */,
+				06DBE6F314CEE53D00F930F3 /* Frameworks */,
+				06DBE6F414CEE53D00F930F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libxslt;
+			productName = libxslt;
+			productReference = 06DBE6F614CEE53D00F930F3 /* liblibxslt.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06DBE6ED14CEE53D00F930F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = chickenjuice.net;
+			};
+			buildConfigurationList = 06DBE6F014CEE53D00F930F3 /* Build configuration list for PBXProject "libxslt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06DBE6EB14CEE53D00F930F3;
+			productRefGroup = 06DBE6F714CEE53D00F930F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06DBE6F514CEE53D00F930F3 /* libxslt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06DBE6F214CEE53D00F930F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DBE70014CEE53D00F930F3 /* libxslt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		06DBE70114CEE53D00F930F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06DBE70214CEE53D00F930F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06DBE70414CEE53D00F930F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libxslt.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libxslt/libxslt-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		06DBE70514CEE53D00F930F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libxslt.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libxslt/libxslt-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06DBE6F014CEE53D00F930F3 /* Build configuration list for PBXProject "libxslt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DBE70114CEE53D00F930F3 /* Debug */,
+				06DBE70214CEE53D00F930F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DBE70314CEE53D00F930F3 /* Build configuration list for PBXNativeTarget "libxslt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DBE70414CEE53D00F930F3 /* Debug */,
+				06DBE70514CEE53D00F930F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06DBE6ED14CEE53D00F930F3 /* Project object */;
+}
