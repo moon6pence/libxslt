@@ -585,7 +585,7 @@ declare_new_prefix:
 	int counter = 1;
 
 	if (nsPrefix == NULL) {
-	    nsPrefix = "ns";
+	    nsPrefix = (xmlChar *)"ns";
 	}
 
 	do {
